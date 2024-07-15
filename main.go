@@ -18,7 +18,6 @@ func main() {
 
 	// Construct the absolute path to airports.csv
 	absPath := filepath.Join(projectRoot, "airport-API", "repository", "airports.csv")
-	fmt.Println("ALOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO")
 	fmt.Println(absPath)
 
 	r := gin.Default()
